@@ -1,0 +1,26 @@
+/* 
+Nama 	: Grace Agnes Kesya 
+NIM		: 13320020
+Kelas	: D3TK1 
+*/
+
+#include <stdio.h>
+
+float volume(float phi, float r, float a){
+    return  r * r * r * a * phi ;
+}
+
+void cetakNilai(float hasil){
+    printf("%f", hasil);
+}
+
+int main(){
+    float r = 49;
+    float phi = 3.14;
+    float a = 1.333333;
+    float hasil = volume(phi,r,a);
+
+    cetakNilai(hasil);
+
+    return 1;
+}
