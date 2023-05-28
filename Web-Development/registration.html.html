@@ -1,0 +1,90 @@
+<!--
+Nama 	  : Grace Agnes Kesya
+NIM		  : 13320020
+Kelas	  : 31TK1
+Deskripsi : registration.html
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Registration</title>
+		<link rel="stylesheet" type="text/css" href="style.css"></link>
+	</head>
+	<body>
+	<form action="index.html" method="get">
+	<tr>
+			<td colspan="5">
+			<h2 align="left">Registration Form</h2>
+					<fieldset>
+						<legend>Your Biodata</legend>
+					<fieldset>
+						<legend>Personal Information</legend>
+						<p>
+						First Name :<input type="text" name="firstname" placeholder="First Name" maxlength="8" required />
+						</p>
+						<p>
+						Last Name :<input type="text" name="lastname" placeholder="Last Name" maxlength="10" required />
+						</p>
+						<p>
+						Gender :<input type="radio" name="gender" value="male" checked> Male <input type="radio" name="gender" value="female"> Female
+						</p>
+						<p>
+						Birthday :<input type="date" name="birthday" required />
+						</p>
+						<p>
+						Hobby :<input type="checkbox" name="hobby1" value="Radio">Radio
+						<input type="checkbox" name="hobby2" value="Music">Music
+						<input type="checkbox" name="hobby2" value="Tv">TV
+						 </p> 
+						<p>
+						Photo <input type="file" name="img" multiple required />
+						</p>
+						<p>
+						City 
+						<select name="cities" required />
+						<option value="jakarta" selected>Jakarta</option>
+						<option value="medan">Medan</option>
+						<option value="bali">Bali</option>
+						<option value="papua">Papua</option>
+						<option value="depok">Depok</option>
+						</select>
+					</fieldset>				
+					
+					<fieldset>
+					<legend>General Information</legend>
+						<p>
+						Comment
+						<textarea type="comment" rows="10" cols="30" required /></textarea>
+						</p>
+					</fieldset>	
+					<p align="right">
+					<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Submit</button>
+					
+					<input type="reset" value="Reset">
+					</fieldset>
+					</p>
+			</td>
+		</tr>
+	</tr>
+	<script type="text/javascript">
+	function validasi() {
+		var first name = document.getElementById("first name").value;
+		var last name = document.getElementById("last name").value;
+		var gender = document.getElementById("gender").value;
+		var birthday = document.getElementById("birthday").value;
+		var hobby = document.getElementById("hobby").value;
+		var photo = document.getElementById("photo").value;
+		var city = document.getElementById("city").value;
+		var comment = document.getElementById("comment").value;
+		if (first name != "" && last name !="" && gender !="" && birthday !="" && hobby !="" && photo !="" && city !="" && comment !="" &&) {
+			return true;
+		}else{
+			alert('Anda harus mengisi data dengan lengkap !');
+		}
+	}
+</script>
+
+</form>
+</body>
+
+</html>
