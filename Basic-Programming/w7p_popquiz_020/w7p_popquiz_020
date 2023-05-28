@@ -1,0 +1,22 @@
+/* 
+Nama 	: Grace Agnes Kesya 
+NIM		: 13320020
+Kelas	: D3TK1 
+*/
+
+#include<stdio.h>
+int main (){
+	float r;
+	float pi;
+	float angka;
+	float volume;
+	
+	r = 49;
+	pi = 22/7;
+	angka = 4/3;
+	
+	volume = angka*pi*r*r*r;
+	
+	printf("volume lingkaran : %f\n", volume);
+	return 0;
+}
