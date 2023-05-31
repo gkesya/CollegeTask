@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- favico -->
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/f29009922c.js" crossorigin="anonymous"></script>
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- validasi -->
+  <script src="assets/scripts/validasi2.js"></script>
+
+  <title>Kantin IT DEL</title>
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#" id="putih">Kantin<span>Del</span></a>
+        <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+          aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse mb-4" id="collapsibleNavId">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item ml-lg-5 ml-0">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ml-lg-5 ml-0">
+              <a class="nav-link" href="gallery.html">Galeri</a>
+            </li>
+            <li class="nav-item ml-lg-5 ml-0">
+              <a class="nav-link" href="jadwal.html">Jadwal</a>
+            </li>
+            <li class="nav-item ml-lg-5 ml-0">
+              <a class="nav-link" href="tatatertib.html">Tata Tertib</a>
+            </li>
+            <li class="nav-item ml-lg-5 ml-0 dropdown">
+              <a class="nav-link dropdown-toggle" href="service.html" id="menu1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services<span class="caret"></span></a>
+              <div class="dropdown-menu" aria-labelledby="menu1">
+                <a class="dropdown-item" href="service.html">Request Izin Mahasiswa Terlambat Makan</a>
+                <a class="dropdown-item" href="service2.html">Request Izin Mahasiswa Sakit</a>
+                <a class="dropdown-item" href="service3.html">Request Izin Mengganti Makanan Mahasiswa Yang Alergi</a>
+            </div>
+            </li>
+            <li class="nav-item ml-lg-5 ml-0">
+              <a class="nav-link" href="denah.html">Denah</a>
+            </li>
+            <li class="nav-item ml-lg-5 ml-0">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item ml-lg-5 ml-0">
+                <a class="nav-link" href="login.html">Log Out</a>
+              </li>
+            <div class="dropdown-divider">
+            <li class="nav-item nav-social d-flex d-lg-none justify-content-center mt-3">
+              <a href="https://www.instagram.com/it.del/"><i class="fab fa-instagram fa-1x mr-5"></i></a>
+              <a href="https://www.del.ac.id/"><i class=" fab fa-facebook-f fa-1x mr-5"></i></a>
+            </li>
+          </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- CONTENT -->
+    <section id="service" class="content">
+      <div class="container"> 
+        <div class="row">
+          <div class="col-md-8"><h1>Form Request Izin Mengganti Makanan Mahasiswa Yang Alergi</h1>
+        <form name="alergi" method="" action="">
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Nama</label>
+          <input type="text" class="form-control" name="nama" id="alergi1" placeholder="Masukkan Nama Lengkap">
+          <label for="exampleFormControlInput1">NIM</label>
+          <input type="text" class="form-control" name="nim" id="alergi2" placeholder="Masukkan NIM Anda">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Program Studi</label>
+      <select class="form-control" name="prodi" id="alergi3">
+        <option id="alergi4">-Pilih Program Studi-</option>
+        <option>D3 - Teknologi Informasi</option>
+        <option>D3 - Teknologi Komputer</option>
+        <option>D4 - Teknologi Rekayasa Perangkat Lunak</option>
+        <option>S1 - Informatika</option>
+        <option>S1 - Sarjana Manajemen Rekayasa</option>
+        <option>S1 - Sistem Informasi</option>
+        <option>S1 - Teknik Bioproses</option>
+        <option>S1 - Teknik Elektro</option> 
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Angkatan</label>
+      <select class="form-control" name="angkatan" id="alergi5">
+        <option id="alergi6">- Angkatan - </option>
+        <option>2016</option>
+        <option>2017</option>
+        <option>2018</option>
+        <option>2019</option>
+        <option>2020</option>  
+      </select>
+    </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">Lokasi Kantin</label>
+    <select class="form-control" name="lokasi" id="alergi7">
+      <option id="alergi8">- Lokasi Kantin - </option>
+      <option>Kantin Satu Lt. 1</option>
+      <option>Kantin Satu Lt. 2</option>
+      <option>Kantin Tengah Lt. 1</option>
+      <option>Kantin Tengah Lt. 2</option>
+      <option>Kantin Dua Lt. 1</option>
+      <option>Kantin Dua Lt. 2</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1">Surat Keterangan Dokter</label>
+    <input type="file" class="form-control" name="skd" id="alergi9">
+    <br>
+    <button type="button" onclick='inputdata2()' class="btn btn-success">Simpan</button>
+    <button type="reset" class="btn btn-warning">Batal</button>
+          </div>
+          <div class="row" >
+            <table class="table" id="databel" style="color: white">
+              <thead>
+                <tr>
+                  <th scope="col">Nama</th> 
+                  <th scope="col">NIM</th>
+                  <th scope="col">Program Studi</th>
+                  <th scope="col">Angkatan</th>
+                  <th scope="col">Lokasi Kantin</th>
+                  <th scope="col">Surat Dokter</th>
+                </tr>
+              </thead>
+            </table>  
+          </div>
+        </form>
+            </div>          
+            <div class="col-md-2"></div>
+          </div>
+        </div>
+         <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- END CONTENT -->
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <hr>
+          <p class="mb-0">Kantin IT Del &copy; 2020</p>
+          <p>By: <a href="team.html">Kelompok 5 D3 TK 2020</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+<!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <!-- JS -->
+  <script src="assets/scripts/script.js"></script>
+</body>
+</html>
