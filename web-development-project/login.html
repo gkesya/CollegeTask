@@ -1,0 +1,108 @@
+<!--
+	Nama Kelompok	:	1. Paul  Martin Parsaulian Nainggolan
+						2. Grace Agnes Kesya
+						3. Fajar Maliki Sianipar
+						5. Antonel Basa Manurung
+
+	Hal 			: Membuat web statik ( Sistem Informasi Kantin IT Del)		
+-->
+
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- favico -->
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/f29009922c.js" crossorigin="anonymous"></script>
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <title>Kantin IT DEL</title>
+</head>
+<body>  <table border="0">
+  <center>
+    <p id="demo"></p>
+    <script>
+      document.getElementById("demo").innerHTML = Date();
+    </script>
+  </center>
+</table>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container">
+            <a class="navbar-brand" href="#" id="putih">Kantin<span>IT Del</span></a>
+            <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId"
+              aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse mb-4" id="collapsibleNavId">
+              <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <div class="dropdown-divider"></div>
+                <li class="nav-item nav-social d-flex d-lg-none justify-content-center mt-3">
+                  <a href="#"><i class="fab fa-instagram fa-1x mr-5"></i></a>
+                  <a href="#"><i class=" fab fa-facebook-f fa-1x mr-5"></i></a>
+                  <a href="#"><i class=" fas fa-share-alt fa-1x"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!--Logins-->
+        <div class="card border-warning">
+          <div calss="card-content">
+            <div class="card-title">
+          <div align="center">
+            <img class="logo" src="assets/images/del.png">
+          </div>
+            <h2 id="title">LOGIN</h2>
+          <div align="center" class="underline-title"></div>
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1"> Username</label>
+            <input type="text" class="form-control" id="username" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1"> Password</label>
+            <input type="password" class="form-control" id="password" name="password">
+          </div>
+          <div>
+            <button type="submit" class="btn btn-warning" onclick="Login();">Submit</button>
+          </div>
+          <br>
+          <div>
+            <a href="forget.html" class="forget-link">Forget password</a>
+          </div>
+          <div class="text-white">Don't have an account?
+            <a href="register.html" class="register-link">Register here</a>
+          </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+  </script>
+  <!-- JS -->
+  <script src="assets/scripts/script.js"></script>
+  <script src="assets/scripts/validasi.js"></script>
+  <!-- aos -->
+
+
+</body>
+
+</html>
