@@ -1,0 +1,19 @@
+footer {
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+footer hr {
+  background-color: #0c3620;
+  height: 3px;
+}
+
+footer p a {
+  color: rgb(112, 255, 112);
+}
+
+footer p a:hover {
+  color: rgb(18, 170, 18);
+  text-decoration: none;
+}

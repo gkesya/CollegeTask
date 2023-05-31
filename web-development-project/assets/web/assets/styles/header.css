@@ -1,0 +1,90 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+/* navbar */
+nav {
+  font-family: 'Oswald', sans-serif !important;
+  font-weight: 700;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav .navbar-brand {
+  color: #000000 !important;
+}
+nav #putih{
+  color:antiquewhite !important;
+}
+nav #hitam{
+  color:goldenrod !important;
+}
+
+nav .navbar-brand span {
+  color: #008037;
+}
+
+nav .nav-link {
+  color: white !important;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 3px;
+  position: relative;
+}
+
+nav .nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 3px;
+  right: 0;
+  width: 0%;
+  height: 3px;
+  background: #13D666;
+  border-radius: 3px;
+  transition: .5s;
+}
+
+nav .nav-link:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+nav .nav-item.nav-social a {
+  color: white;
+  text-decoration: none;
+  font-size: 25px !important;
+}
+
+nav .nav-item.nav-social a i {}
+
+
+
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  nav {
+    background: none;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
