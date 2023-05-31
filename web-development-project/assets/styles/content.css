@@ -1,0 +1,191 @@
+section.content {
+  padding: 70px 0;
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+section p a {
+  color: rgb(112, 255, 112);
+}
+
+section p a:hover {
+  color: rgb(18, 170, 18);
+  text-decoration: none;
+}
+
+.card {
+  background: #0c3620;
+  padding: 20px 30px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.card p {
+  margin: 0;
+  color: #d6d6d6;
+}
+
+.gmap_canvas {
+  border-radius: 10px;
+}
+
+form {
+  background: #0c3620;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+form .form-control {
+  color: white;
+  background-color: #061b10;
+  border: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+form .form-control:focus {
+  background-color: #061b10;
+  color: white;
+}
+
+.svg1,
+.svg2,
+.svg3,
+.svg4,
+.svg5,
+.svg6 {
+  width: 40% !important;
+}
+
+.svg1 {
+  left: 0;
+  top: 50px;
+}
+
+.svg2 {
+  right: 0;
+  bottom: 20px;
+}
+
+.svg3 {
+  left: 10px;
+  top: 50px;
+}
+
+.svg4 {
+  right: 30px;
+  bottom: 0;
+}
+
+.svg5 {
+  left: 0;
+  top: 55px;
+}
+
+.svg6 {
+  right: 0;
+  bottom: -20px;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  section.content {
+    padding: 100px 0;
+    color: white;
+    position: relative;
+  }
+
+  .card {
+    background: #0c3620;
+    padding: 30px 50px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+  }
+
+  .card p {
+    margin: 0;
+    color: #d6d6d6;
+  }
+
+  .gmap_canvas {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  form {
+    background: #0c3620;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 40px;
+    margin-bottom: 0;
+  }
+
+  form .form-control {
+    color: white;
+    background-color: #061b10;
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  form .form-control:focus {
+    background-color: #061b10;
+    color: white;
+  }
+
+  .svg1,
+  .svg2,
+  .svg3,
+  .svg4,
+  .svg5,
+  .svg6 {
+    width: 20% !important;
+  }
+
+  .svg1 {
+    left: 0;
+    top: 50px;
+  }
+
+  .svg2 {
+    right: 0 !important;
+    bottom: 0;
+  }
+
+  .svg3 {
+    left: 10px;
+    top: 60px;
+  }
+
+  .svg4 {
+    right: 50px;
+    top: -150px;
+  }
+
+  .svg5 {
+    left: 0;
+    bottom: 100px;
+  }
+
+  .svg6 {
+    right: 0;
+    bottom: 0px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}

@@ -1,0 +1,186 @@
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* jumbotron */
+
+.jumbotron {
+  height: 100vh;
+  margin: 0;
+  padding: 75px 20px;
+  color: white;
+  /* bg */
+  background-image: url(../images/background-jumbo.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.jumbotron h1 {
+  font-family: "Lexend Peta", sans-serif !important;
+  font-size: 35px;
+  margin: 0;
+  color: white;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+  position: relative;
+  z-index: 9;
+}
+
+.jumbotron h1 span.nature {
+  color: #13d666;
+}
+
+.jumbotron p {
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-top: -5px;
+  font-weight: 200;
+}
+
+.jumbotron #scroll {
+  color: white;
+  position: absolute;
+  bottom: 30px;
+}
+
+.jumbotron #scroll #arrow {
+  width: 1px;
+  height: 40px;
+  background-color: white;
+  margin: -12px auto;
+  border-radius: 1px;
+}
+
+.jumbotron #scroll a {
+  color: white;
+  text-decoration: none;
+}
+
+.jumbotron #scroll p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+}
+
+/* social */
+.jumbotron #social {
+  position: absolute;
+  left: 20px;
+  top: 0;
+  height: 100%;
+  width: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.jumbotron #social a {
+  color: white;
+  text-decoration: none;
+}
+
+.jumbotron #social a:hover {
+  color: #0d773b;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* jumbotron */
+  .jumbotron {
+    height: 100vh;
+    margin: 0;
+    padding: 75px 20px;
+    color: white;
+    /* bg */
+  }
+
+  .jumbotron h1 {
+    font-family: "Lexend Peta", sans-serif !important;
+    font-size: 65px;
+    margin: 0;
+    color: white;
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+  }
+
+  .jumbotron h1 span.nature {
+    color: #13d666;
+  }
+
+  span.hov {
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+  }
+
+  span.hov:hover {
+    transform: scale(1.6);
+    cursor: pointer;
+  }
+
+  .jumbotron p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: -5px;
+    font-weight: 200;
+  }
+
+  .jumbotron #scroll {
+    color: white;
+    position: absolute;
+    bottom: 50px;
+  }
+
+  .jumbotron #scroll #arrow {
+    width: 1px;
+    height: 40px;
+    background-color: white;
+    margin: -12px auto;
+    border-radius: 1px;
+  }
+
+  .jumbotron #scroll a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .jumbotron #scroll p {
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+  }
+
+  /* social */
+  .jumbotron #social {
+    position: absolute;
+    left: 20px;
+    top: 0;
+    height: 100%;
+    width: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .jumbotron #social a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .jumbotron #social a:hover {
+    color: #0d773b;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
