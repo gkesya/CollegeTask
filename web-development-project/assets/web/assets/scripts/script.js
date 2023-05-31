@@ -1,0 +1,2 @@
+// data aos
+AOS.init();
